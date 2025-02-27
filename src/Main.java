@@ -8,7 +8,7 @@ int month = 12;
 
 int myPayment = service.Calculate(credit, percent, month);
 
-System.out.println(myPayment);
+System.out.println("Ежемесячный платеж: " + myPayment);
 
     }
 }
